@@ -1,0 +1,5 @@
+archivo = open("mensaje_marciano.txt", "r")
+lineas = archivo.readlines()
+texto = "".join(lineas).replace('\n', '')
+codigo = texto.split(" ")
+print(codigo)
